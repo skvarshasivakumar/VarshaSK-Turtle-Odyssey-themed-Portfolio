@@ -1,0 +1,12 @@
+
+
+body{overflow-x:hidden;font-family: 'Combo', cursive;font-size:20px;background: #644e97;}
+/* #8884dd */
+b, span{display:block;}
+b{margin-bottom:15px;font-size:30px;}
+#floor{position: absolute;background:url('img/floor.jpg');bottom: 0;width: 100%;left: 0;height: 106px;}
+#scroll{image-rendering: crisp-edges;position:fixed;top:0;bottom:106px;width:3125px;background:url('img/background.jpg');background-position:left bottom;background-repeat:no-repeat;background-size:auto 100%;}
+#turtle{background-image:url('img/My project (1).png?v=2');background-position:top left;background-repeat:no-repeat;position:fixed;z-index:9999;bottom:106px;left:50%;margin-left:-30px;width:65px;height:129px;background-blend-mode: color;}
+.box{position:relative;height:270px;float:left;background:#a1d8b9;padding:20px;margin-left:100px;top:50%;margin-top:-200px;width:300px;}
+#btn_left{font-size:80px;color:#a1d8b9;position:fixed;left:0;bottom:-25px;cursor:pointer;}
+#btn_right{font-size:80px;color:#a1d8b9;position:fixed;right:0;bottom:-25px;cursor:pointer;}
